@@ -85,7 +85,9 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 #custom alias
-alias podi='pod-repo-update && pod install --verbose'
+alias podi='pod install --verbose'
+alias podu='pod update --verbose'
+alias cdb='cd ~/Work/bilin'
 alias openy='open ~/Work/YYMobile/YYMobile.xcworkspace/'
 alias sub='open -a /Applications/Sublime\ Text.app/'
 alias cdy='cd ~/Work/YYMobile'
